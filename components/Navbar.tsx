@@ -33,9 +33,6 @@ export default function Navbar() {
             <Link href="/shop" className="text-gray-700 hover:text-pink-600 transition">
               Shop
             </Link>
-            {/* <Link href="/categories" className="text-gray-700 hover:text-pink-600 transition">
-              Categories */}
-          
             <Link href="/about" className="text-gray-700 hover:text-pink-600 transition">
               About
             </Link>
@@ -78,27 +75,20 @@ export default function Navbar() {
               Shop
             </Link>
             <Link
-              href="/categories"
+              href="/about"
               className="block px-3 py-2 text-gray-700 hover:text-pink-600 transition"
             >
-              Categories
-            
-            
               About
             </Link>
             <Link
-              href="/about"
+              href="/contact"
               className="block px-3 py-2 text-gray-700 hover:text-pink-600 transition"
             >
               Contact
             </Link>
-            Link
-              href="/contact"
-              className="block px-3 py-2 text-gray-700 hover:text-pink-600 transition"
-
           </div>
         </div>
       )}
     </nav>
   );
-}           
+}
